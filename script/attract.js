@@ -65,7 +65,7 @@ $(document).ready(function () {
         gameArea.context.clearRect(0, 0, gameArea.canvas.width, gameArea.canvas.height);
 //        gameArea.context.fillStyle = '#ccffcc';//'#000000';
 //        gameArea.context.fillRect(0, 0, gameArea.canvas.width, gameArea.canvas.height);
-        gameArea.context.scale(0.5,0.5);
+//         gameArea.context.scale(0.5,0.5);
         if (playAttract.status) {        
             gameArea.context.save();
             gameArea.context.drawImage(gameArea.imageref, animInfo.frame*100, 0, 92, 94, pos.x, pos.y, 92, 94);
